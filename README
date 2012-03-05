@@ -1,0 +1,28 @@
+What?
+------------
+mamehq is yet another frontend for MAME written in Qt. 
+It's tailored for archade machine and a massive amount of ROMS!
+
+
+Get started
+------------
+To get started:
+
+# cd
+# mkdir mamehq
+# cd mamehq
+# mk data
+# ./mame -listxml > data/listxml.xml
+# ./mame -verifyromsets > data/verifyromsets.txt
+# qmake
+# make
+# ./mamehq
+
+Testes on OS X and Linux!
+
+Enjoy!
+
+/benner
+jens@bennerhq.com
+
+
